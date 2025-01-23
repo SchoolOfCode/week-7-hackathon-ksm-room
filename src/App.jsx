@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Header from "./components/Header.jsx";
 import Flashcards from "./components/Flashcards.jsx";
+import Form from "./components/Form.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
 
@@ -14,11 +15,15 @@ const cardExamples = [
 function App() {
   const [flashcards, setFlashcards] = useState(cardExamples);
 
+  function addCard(newFlashcard) {
+    setFlashcards((prevFlashcards) => [...prevFlashcards, newFlashcard]);
+  }
   return (
     <div className="app">
       <Header />
       <main>
         <Flashcards flashcards={flashcards} />
+        <Form addFlashcard={addCard} />
       </main>
       <Footer />
     </div>
