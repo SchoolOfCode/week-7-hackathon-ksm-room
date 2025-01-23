@@ -3,7 +3,7 @@ import Flashcard from "./Flashcard";
 
 function Flashcards({ flashcards }) {
   return (
-    <div className="flashcards">
+    <div className="flashcard-container">
       {flashcards.map((flashcard) => {
         return <Flashcard flashcard={flashcard} key={flashcard.id} />;
       })}

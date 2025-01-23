@@ -6,9 +6,9 @@ import Footer from "./components/Footer.jsx";
 import "./App.css";
 
 const cardExamples = [
-  { id: 1, question: "Question Test", answer: "Answer Text" },
-  { id: 2, question: "Question Test", answer: "Answer Text" },
-  { id: 3, question: "Question Test", answer: "andiqjfiewf" },
+  { id: 1, question: "What is JSX?", answer: "Answer Text" },
+  { id: 2, question: "What is Vite?", answer: "Answer Text" },
+  { id: 3, question: "What is state?", answer: "andiqjfiewf" },
 ];
 
 function App() {

@@ -4,3 +4,8 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
+.app {
+  background-color: rgb(41, 2, 77);
+  padding: 3em
+}
