@@ -13,5 +13,4 @@ function Flashcard({ flashcard }) {
     </div>
   );
 }
-
 export default Flashcard;

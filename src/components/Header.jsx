@@ -12,7 +12,6 @@ function Header() {
       <p className="about-text">
         🧠Expand your React knowledge. One flashcard at a time!🐌
       </p>
-      <p className="about-text">Click each card to find out the answer.</p>
     </div>
   );
 }

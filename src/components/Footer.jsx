@@ -1,10 +1,13 @@
 import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <p>Powered by React</p>
-    </footer>
+    <div className="footer-container">
+      <footer className="footer">
+        <p>Built with React</p>
+      </footer>
+    </div>
   );
 }
 
