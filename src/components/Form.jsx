@@ -36,9 +36,9 @@ function Form({ addFlashcard }) {
 
   return (
     <form className="form">
-      <h2>Add new flashcard</h2>
+      <h2>Add your own flashcards</h2>
       <div className="form-group">
-        <label htmlFor="question">Question</label>
+        <label htmlFor="question">Question   </label>
         <input
           type="text"
           id="question"
@@ -48,7 +48,7 @@ function Form({ addFlashcard }) {
         />
       </div>
       <div className="form-group">
-        <label htmlFor="answer">Answer</label>
+        <label htmlFor="answer">Answer   </label>
         <input
           type="text"
           id="answer"
@@ -58,7 +58,7 @@ function Form({ addFlashcard }) {
         />
       </div>
       <button className="button" type="button" onClick={handleSubmit}>
-        Add new flashcard
+        Add flashcard
       </button>
     </form>
   );

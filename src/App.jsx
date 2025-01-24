@@ -12,8 +12,8 @@ const cardExamples = [
     answer:
       "React Hooks are tools that allow you to use state and other React features without writing class components. They're designed to simplify your code and make it easier to share logic across components.",
   },
-  { id: 2, question: "Question Test", answer: "Answer Text" },
-  { id: 3, question: "Question Test", answer: "andiqjfiewf" },
+  { id: 2, question: "What is JSX?", answer: "JSX makes it easier to write and add HTML in React. It converts HTML tags into React elements."},
+  { id: 3, question: "What is 'state'?", answer: "Components need to “remember” things. In React, this kind of component-specific memory is called state." },
 ];
 
 function App() {
@@ -23,13 +23,12 @@ function App() {
     setFlashcards((prevFlashcards) => [...prevFlashcards, newFlashCard]);
   };
 
+
   return (
     <div className="app">
       <Header />
-      <main>
         <Flashcards flashcards={flashcards} />
         <Form addFlashcard={addCard} />
-      </main>
       <Footer />
     </div>
   );
