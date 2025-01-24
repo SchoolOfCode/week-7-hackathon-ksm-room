@@ -1,7 +1,11 @@
-.flashcard-container {
-  background-color: rgb(44, 42, 42);
+.flashcards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px;
   padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+
+  justify-items: center;
 }
