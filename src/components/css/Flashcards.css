@@ -1,0 +1,11 @@
+.flashcards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+
+  justify-items: center;
+}
