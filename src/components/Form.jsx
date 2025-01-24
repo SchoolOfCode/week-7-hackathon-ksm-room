@@ -38,7 +38,7 @@ function Form({ addFlashcard }) {
     <form className="form">
       <h2>Add your own flashcards</h2>
       <div className="form-group">
-        <label htmlFor="question">Question   </label>
+        <label htmlFor="question">Question </label>
         <input
           type="text"
           id="question"
@@ -48,7 +48,7 @@ function Form({ addFlashcard }) {
         />
       </div>
       <div className="form-group">
-        <label htmlFor="answer">Answer   </label>
+        <label htmlFor="answer">Answer </label>
         <input
           type="text"
           id="answer"
