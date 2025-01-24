@@ -1,10 +1,10 @@
 import React from "react";
 import reactLogo from "../assets/react.svg";
-import "./css/Header.css";
+import "./Header.css";
 
 function Header() {
   return (
-    <div className="header">
+    <div className="headerContainer">
       <a href="https://react.dev" target="_blank">
         <img src={reactLogo} className="logo react" alt="React logo" />
       </a>

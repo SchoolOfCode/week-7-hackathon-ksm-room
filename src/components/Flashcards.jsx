@@ -5,7 +5,7 @@ import "./css/Flashcards.css";
 function Flashcards({ flashcards }) {
   // introduce state to flip between flashcards, showing one at a time
   return (
-    <div className="flashcards">
+    <div className="flashcards-container">
       {flashcards.map((flashcard) => {
         return <Flashcard flashcard={flashcard} key={flashcard.id} />;
       })}
