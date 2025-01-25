@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
 import Header from "./components/Header.jsx";
 import Flashcards from "./components/Flashcards.jsx";
 import Form from "./components/Form.jsx";
@@ -8,19 +9,19 @@ import "./App.css";
 // display 3 flashcards using array of objects
 const cardExamples = [
   {
-    id: 1,
+    id: uuidv4(),
     question: "What are React Hooks? ",
     answer:
       "React Hooks are tools that allow you to use state and other React features without writing class components. They're designed to simplify your code and make it easier to share logic across components.",
   },
   {
-    id: 2,
+    id: uuidv4(),
     question: "What is JSX?",
     answer:
       "JSX makes it easier to write and add HTML in React. It converts HTML tags into React elements.",
   },
   {
-    id: 3,
+    id: uuidv4(),
     question: "What is 'state'?",
     answer:
       "Components need to “remember” things. In React, this kind of component-specific memory is called state.",

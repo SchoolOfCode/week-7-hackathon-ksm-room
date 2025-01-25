@@ -9,7 +9,7 @@ function Flashcards({ flashcards }) {
   return (
     <div className="flashcards">
       {flashcards.map((flashcard) => {
-        return <Flashcard flashcard={flashcard} key={flashcard.id} />;
+        return <Flashcard flashcard={flashcard} />;
       })}
     </div>
   );

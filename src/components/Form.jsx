@@ -18,7 +18,7 @@ function Form({ addFlashcard }) {
 
   // function to handle submit
   function handleSubmit() {
-    if (!question || !answer) {
+    if (!question.trim() || !answer.trim()) {
       alert("You need to give a question and an answer!");
       return;
     }
